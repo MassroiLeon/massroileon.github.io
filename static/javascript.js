@@ -337,8 +337,8 @@ const data = [
   {
     id: "0052",
     displayName: "HelloKeqing Hà",
-    donated: "80K/540K",
-    dueDate: "Jun 15, 2024 00:00:00",
+    donated: "130K/540K",
+    dueDate: "Aug 19, 2024 00:00:00",
   },
   {
     id: "0053",
