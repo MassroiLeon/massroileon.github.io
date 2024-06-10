@@ -128,8 +128,8 @@ const data = [
     id: "0019",
     userPro: true,
     displayName: "Đặng Đạt",
-    donated: "116K/540K",
-    dueDate: "Jun 16, 2024 00:00:00",
+    donated: "141K/540K",
+    dueDate: "Jul 16, 2024 00:00:00",
   },
   {
     id: "0020",
@@ -411,7 +411,7 @@ const data = [
     id: "0063",
     userPro: true,
     displayName: "ren",
-    donated: "Full"
+    donated: "Received LifeTime Privileges ⚙<p>Time remaining: Until the server is completely closed."
   },
   {
     id: "0064",
