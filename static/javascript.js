@@ -440,6 +440,20 @@ const data = [
     displayName: "Yumi Sayuri",
     donated: "Received LifeTime Privileges ⚙<p>Time remaining: Until the server is completely closed.",
   },
+  {
+    id: "0068",
+    userPro: false,
+    displayName: "Nhật Huy",
+    donated: "40K/540K",
+    dueDate: "Jul 11, 2024 00:00:00",
+  },
+  {
+    id: "0069",
+    userPro: false,
+    displayName: "Duy Anh",
+    donated: "40K/540K",
+    dueDate: "Jul 12, 2024 00:00:00",
+  },
 ];
 
 document.addEventListener("DOMContentLoaded", function () {
