@@ -3,7 +3,7 @@ const data = [
   {
     id: "0000",
     userPro: true,
-    displayName: "MassroiLeon",
+    displayName: "MassroiLeon 🐧🕊️",
     donated: "Received LifeTime Privileges ⚙<p>Time remaining: Until the server is completely closed.",
   },
   {
@@ -49,9 +49,9 @@ const data = [
   {
     id: "0007",
     userPro: true,
-    displayName: "Lucas",
-    donated: "7$/24$",
-    dueDate: "Jun 14, 2024 00:00:00",
+    displayName: "Lucario",
+    donated: "9$/24$",
+    dueDate: "Jul 14, 2024 00:00:00",
   },
   {
     id: "0008",
