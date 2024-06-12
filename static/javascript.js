@@ -51,7 +51,7 @@ const data = [
     userPro: true,
     displayName: "Lucario",
     donated: "9$/24$",
-    dueDate: "Jul 14, 2024 00:00:00",
+    dueDate: "Aug 18, 2024 00:00:00",
   },
   {
     id: "0008",
