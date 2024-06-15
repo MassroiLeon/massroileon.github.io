@@ -217,8 +217,7 @@ const data = [
     id: "0033",
     userPro: true,
     displayName: "Korei",
-    donated: "5$/24$",
-    dueDate: "Jun 11, 2024 00:00:00",
+    donated: "Received LifeTime Privileges ⚙<p>Time remaining: Until the server is completely closed.",
   },
   {
     id: "0034",
