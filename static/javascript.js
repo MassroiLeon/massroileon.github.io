@@ -94,7 +94,7 @@ const data = [
     id: "0014",
     userPro: true,
     displayName: "San Ngọc",
-    donated: "151K/540K",
+    donated: "251K/540K",
     dueDate: "Oct 6, 2024 00:00:00",
   },
   {
