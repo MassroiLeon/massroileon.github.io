@@ -10,8 +10,7 @@ const data = [
     id: "0001",
     userPro: true,
     displayName: "Izumi",
-    donated: "8$/24$",
-    dueDate: "Jul 8, 2024 00:00:00",
+    donated: "Received LifeTime Privileges ⚙<p>Time remaining: Until the server is completely closed.",
   },
   {
     id: "0002",
@@ -463,7 +462,7 @@ const data = [
     id: "0071",
     userPro: true,
     displayName: "Hikari",
-    donated: "50K/540K",
+    donated: "90K/540K",
     dueDate: "Aug 5, 2024 00:00:00",
   },
   {
@@ -479,6 +478,13 @@ const data = [
     displayName: "紫陽花",
     donated: "14$/24$",
     dueDate: "Jul 1, 2025 00:00:00",
+  },
+  {
+    id: "0074",
+    userPro: false,
+    displayName: "exce",
+    donated: "50K/540K",
+    dueDate: "Aug 9, 2024 00:00:00",
   },
 ];
 
