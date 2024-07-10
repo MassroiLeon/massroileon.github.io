@@ -455,8 +455,8 @@ const data = [
     id: "0070",
     userPro: false,
     displayName: "nguyen huy",
-    donated: "40K/540K",
-    dueDate: "Jul 16, 2024 00:00:00",
+    donated: "80K/540K",
+    dueDate: "Aug 17, 2024 00:00:00",
   },
   {
     id: "0071",
