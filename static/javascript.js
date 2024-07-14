@@ -100,9 +100,8 @@ const data = [
     id: "0015",
     userPro: true,
     displayName: "Mai Trần Ngọc Anh",
-    donated: "135K/540K ?23K",
-    Reward : "Win Giveaway Event 07-05 (+1 Month)",
-    dueDate: "Sep 6, 2024 00:00:00",
+    donated: "160K/540K ?23K",
+    dueDate: "Oct 6, 2024 00:00:00",
   },
   {
     id: "0016",
@@ -448,8 +447,8 @@ const data = [
     id: "0069",
     userPro: false,
     displayName: "Duy Anh",
-    donated: "40K/540K",
-    dueDate: "Jul 12, 2024 00:00:00",
+    donated: "80K/540K",
+    dueDate: "Aug 12, 2024 00:00:00",
   },
   {
     id: "0070",
