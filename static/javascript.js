@@ -315,8 +315,8 @@ const data = [
     id: "0049",
     userPro: true,
     displayName: "廻り",
-    donated: "6$/24$",
-    dueDate: "Jul 15, 2024 00:00:00",
+    donated: "8$/24$",
+    dueDate: "Nov 3, 2024 00:00:00",
   },
   {
     id: "0050",
