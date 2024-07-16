@@ -387,8 +387,8 @@ const data = [
     id: "0060",
     userPro: true,
     displayName: "Patrick",
-    donated: "6$/24$",
-    dueDate: "Sep 16, 2024 00:00:00",
+    donated: "8$/24$",
+    dueDate: "Nov 20, 2024 00:00:00",
   },
   {
     id: "0061",
