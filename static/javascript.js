@@ -37,7 +37,7 @@ const data = [
     userPro: true,
     displayName: "Vũ Đức",
     donated: "196K/540K",
-    dueDate: "Aug 7, 2024 00:00:00",
+    dueDate: "Aug 8, 2024 00:00:00",
   }/*,
   {
     id: "0006",
@@ -75,7 +75,7 @@ const data = [
     displayName: "そのRay..",
     userPro: true,
     donated: "5$/24$",
-    dueDate: "Jul 26, 2024 00:00:00",
+    dueDate: "Jul 29, 2024 00:00:00",
   },
   {
     id: "0012",
@@ -176,7 +176,7 @@ const data = [
     displayName: "Zack",
     userPro: true,
     donated: "6$/24$",
-    dueDate: "Aug 12, 2024 00:00:00",
+    dueDate: "Aug 13, 2024 00:00:00",
   },
   {
     id: "0028",
@@ -221,7 +221,7 @@ const data = [
     userPro: true,
     displayName: "Ka non",
     donated: "11$/24$",
-    dueDate: "Jan 1, 2025 00:00:00",
+    dueDate: "Jan 6, 2025 00:00:00",
   }/*,
   {
     id: "0035",
@@ -483,7 +483,7 @@ const data = [
     userPro: false,
     displayName: "exce",
     donated: "50K/540K",
-    dueDate: "Aug 9, 2024 00:00:00",
+    dueDate: "Aug 10, 2024 00:00:00",
   },
 ];
 
