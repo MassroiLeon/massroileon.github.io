@@ -100,8 +100,7 @@ const data = [
     id: "0015",
     userPro: true,
     displayName: "Mai Trần Ngọc Anh",
-    donated: "160K/540K ?23K",
-    dueDate: "Oct 6, 2024 00:00:00",
+    donated: "Received LifeTime Privileges ⚙<p>Time remaining: Until the server is completely closed.",
   },
   {
     id: "0016",
