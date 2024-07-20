@@ -321,7 +321,7 @@ const data = [
   {
     id: "0050",
     displayName: "Lý Triệu Huy",
-    donated: "105K/540K",
+    donated: "0K/540K",
     dueDate: "Jul 15, 2024 00:00:00",
   }/*,
   {
@@ -335,11 +335,11 @@ const data = [
     displayName: "HelloKeqing Hà",
     donated: "130K/540K",
     dueDate: "Aug 19, 2024 00:00:00",
-  },
+  }/*,
   {
     id: "0053",
     displayName: "jjdbd djzhuz",
-    donated: "2$/24$",
+    donated: "0$/24$",
     dueDate: "Jun 20, 2024 00:00:00",
   },
   {
@@ -347,7 +347,7 @@ const data = [
     displayName: "80742",
     donated: "0$/24$",
     dueDate: "May 20, 2024 00:00:00",
-  },
+  }*/,
   {
     id: "0055",
     userPro: true,
@@ -468,8 +468,8 @@ const data = [
     id: "0072",
     userPro: false,
     displayName: "leaf",
-    donated: "2$/24$",
-    dueDate: "Jul 21, 2024 00:00:00",
+    donated: "4$/24$",
+    dueDate: "Aug 21, 2024 00:00:00",
   },
   {
     id: "0073",
@@ -484,6 +484,20 @@ const data = [
     displayName: "exce",
     donated: "50K/540K",
     dueDate: "Aug 10, 2024 00:00:00",
+  },
+  {
+    id: "0075",
+    userPro: false,
+    displayName: "Ze 38",
+    donated: "2$/24$",
+    dueDate: "Aug 12, 2024 00:00:00",
+  },
+  {
+    id: "0076",
+    userPro: false,
+    displayName: "蔡 蔡子",
+    donated: "2$/24$",
+    dueDate: "Aug 21, 2024 00:00:00",
   },
 ];
 
@@ -525,7 +539,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <br>
 
         <p>Donated: ${user.donated}</p>
-        ${user.dueDate ? `<p>Expired To : <span id="due-date-${user.id}">${new Date(user.dueDate).toLocaleDateString('en-US', { month: '2-digit', day: '2-digit', year: 'numeric' })}</span></p>` : ''}
+        ${user.dueDate ? `<p>Expired To : <span id="due-date-${user.id}">${new Date(user.dueDate).toLocaleDateString('en-US', { day: '2-digit', month: '2-digit', year: 'numeric' })}</span></p>` : ''}
         <br>
         <div class="alent-box">
           <p id="countdown-${user.id}"></p>
