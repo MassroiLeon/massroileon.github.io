@@ -37,7 +37,7 @@ const data = [
     userPro: true,
     displayName: "Vũ Đức",
     donated: "196K/540K",
-    dueDate: "Aug 8, 2024 00:00:00",
+    dueDate: "Oct 12, 2024 00:00:00",
   }/*,
   {
     id: "0006",
@@ -539,7 +539,7 @@ document.addEventListener("DOMContentLoaded", function () {
         <br>
 
         <p>Donated: ${user.donated}</p>
-        ${user.dueDate ? `<p>Expired To : <span id="due-date-${user.id}">${new Date(user.dueDate).toLocaleDateString('en-US', { day: '2-digit', month: '2-digit', year: 'numeric' })}</span></p>` : ''}
+        ${user.dueDate ? `<p>Expired To : <span id="due-date-${user.id}">${new Date(user.dueDate).toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: 'numeric' })}</span></p>` : ''}
         <br>
         <div class="alent-box">
           <p id="countdown-${user.id}"></p>
