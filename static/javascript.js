@@ -36,7 +36,7 @@ const data = [
     id: "0005",
     userPro: true,
     displayName: "Vũ Đức",
-    donated: "196K/540K",
+    donated: "240K/540K",
     dueDate: "Oct 12, 2024 00:00:00",
   }/*,
   {
@@ -467,8 +467,8 @@ const data = [
     id: "0072",
     userPro: false,
     displayName: "leaf",
-    donated: "4$/24$",
-    dueDate: "Aug 21, 2024 00:00:00",
+    donated: "6$/24$",
+    dueDate: "Oct 25, 2024 00:00:00",
   },
   {
     id: "0073",
