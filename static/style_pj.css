@@ -1,0 +1,498 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 86px;
+  /* padding-block: 40px; */
+  padding-bottom: 40px;
+}
+
+main {
+    background: url("index/default.jpg") , #000;
+    background-attachment: fixed;
+  }
+
+
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+.nav_logo {
+  padding: 10px 0;
+}
+.menu_items {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+h2 {
+  margin-top: 16px;
+}
+
+h1 {
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  text-decoration: none;
+}
+
+li {
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background: url(index/bg-dot.png), url(index/bg-dot.png), url(index/bg-round.png), url(index/bg-tree.png);
+  background-position: 10px 10px, bottom 215px right 10px, left 55% top -1%, left 45% bottom -1px;
+  background-repeat: no-repeat;
+}
+.curveImg {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  pointer-events: none;
+}
+.hero .row {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  height: 100%;
+  width: 100%;
+  padding: 0 60px;
+  gap: 30px;
+  justify-content: space-between;
+}
+.hero .row h2,
+.hero .row li,
+.hero .row p {
+  color: #fff;
+  text-shadow: 2px 2px 3px #000000;
+}
+.hero .row h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  text-shadow: 2px 2px 3px #000000;
+}
+.hero .column {
+  width: 50%;
+}
+.buttons {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  font-size: 18px;
+  text-align: center;
+}
+.btn {
+  padding: 8px 5%;
+  background: #fff;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.6s ease;
+}
+.btn:last-child {
+  border: 2px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+.btn:last-child:hover {
+  background-color: #fff;
+  color: #333;
+}
+.hero_img {
+  width: 100%;
+  z-index: 10;
+}
+#menu_toggle {
+  display: none;
+}
+
+.footer {
+  font-size: 0.5em;
+  color: grey;
+  text-align: center;
+}
+
+
+/* Reponsive */
+@media (width < 860px) {
+  #menu_toggle {
+    display: block;
+  }
+  .nav {
+    padding: 0 20px;
+    background-color: #fff;
+  }
+
+  h2 {
+    padding-block: 12px;
+    padding-bottom: 48px;
+}
+
+  .menu_items {
+    position: fixed;
+    top: 0;
+    width: 260px;
+    background-color: #fff;
+    height: 100%;
+    left: -100%;
+    padding: 50px 30px 30px;
+    flex-direction: column;
+    transition: all 0.5s ease;
+  }
+  .showMenu .menu_items {
+    left: 0;
+  }
+  a {
+    color: #333;
+    text-shadow: 0.2px 0.2px 0.4px #000000;
+  }
+  #menu_toggle {
+    width: 20px;
+    cursor: pointer;
+  }
+  .menu_items #menu_toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .hero {
+    padding-top: 130px;
+  }
+  .hero .row {
+    flex-direction: column;
+    padding: 0 20px;
+    justify-content: center;
+  }
+  .hero .row .column {
+    width: 100%;
+  }
+}
+
+@media (width < 600px) {
+  .hero {
+    padding-top: 80px;
+  }
+  .hero .row h2 {
+    font-size: 26px;
+  }
+  .buttons {
+    justify-content: center;
+  }
+  .btn {
+    padding: 10px 16px;
+  }
+}
+
+.popup{
+  width: 550px;
+  background: rgba(3, 3, 3, 0.9);
+  border-radius: 12px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #000;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.popup img{
+  width: 100px;
+  margin-top: -50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: transparent;
+  color: #fff;
+  border-radius: 32px;
+}
+
+.popup .button{
+    margin-top: 25px;
+    gap: 10px;
+}
+
+
+
+
+.popup1{
+  width: 400px;
+  background: rgba(3, 3, 3, 0.9);
+  border-radius: 12px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #000;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+
+.open-popup1{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.popup1 img{
+  width: 100px;
+  margin-top: -50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup1 button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: transparent;
+  color: #fff;
+  border-radius: 32px;
+}
+
+.popup1 .button{
+    margin-top: 25px;
+    gap: 10px;
+}
+
+
+
+
+.popup2{
+  width: 550px;
+  background: rgba(3, 3, 3, 0.9);
+  border-radius: 12px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%) scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #000;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.left-column {
+  width: 50%;
+  height: 100px;
+  float: left;
+  border-right: 1px solid #ddd;
+}
+.right-column {
+  width: 50%;
+  height: 100px;
+  float: right;
+  margin-right: 0;
+}
+
+.open-popup2{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%,-50%) scale(1);
+}
+
+.popup2 img{
+  width: 100px;
+  margin-top: -50px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup2 button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: transparent;
+  color: #fff;
+  border-radius: 32px;
+}
+
+.popup2 .button{
+    margin-top: 25px;
+    gap: 10px;
+}
+
+.rota{
+  width: 100%;
+  padding: 5px 0px 5px 0px;
+  color: #fff;
+  display: block;
+  font-size: 18px;
+  text-align: center;
+  border: #000 solid 1px;
+  border-radius: 20px;
+  text-shadow: 2px 2px 3px #000000;
+  background-color: #000000c0;
+}
+
+.roti{
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 18px;
+}
+
+.down2a{
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  padding-left: 2%;
+}
+
+.down2a a{
+  color: #fff;
+}
+
+.down2a ul{
+  padding-left: 65px;
+}
+
+.down2a li{
+  padding: 12px;
+}
+
+.btn2a{
+  padding: 12px;
+}
+
+/* CSS for the full image popup */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
+}
+
+.popup-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+.popup-img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+/* CSS for the next arrow */
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+.thumbnail-container {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch; /* Thêm hiệu ứng cuộn mượt trên iOS */
+  scrollbar-width: thin; /* Định dạng thanh cuộn trên các trình duyệt mới */
+  scrollbar-color: #ffffffd3 transparent; /* Màu sắc của thanh cuộn */
+}
+
+/* Định dạng của thanh cuộn trên các trình duyệt mới (Firefox) */
+.thumbnail-container::-webkit-scrollbar {
+  width: 4px; /* Độ rộng của thanh cuộn */
+}
+
+/* Định dạng của thanh cuộn trên các trình duyệt mới (Firefox) */
+.thumbnail-container::-webkit-scrollbar-thumb {
+  background-color: #ffffffd3; /* Màu sắc của thanh cuộn */
+  border-radius: 2px; /* Độ cong của viền thanh cuộn */
+}
+
+
+.thumbnail {
+  margin-right: 5px; /* Khoảng cách giữa các ảnh */
+  border: 2px solid transparent; /* Đảm bảo rằng có một phần viền xung quanh hình ảnh */
+}
+
+
+.thumbnail-wrapper {
+  display: inline-flex;
+}
+
+.thumbnail img {
+  scroll-snap-align: start; /* Đảm bảo rằng mỗi ảnh bắt đầu ở vị trí cuối cùng của container */
+}
+
+.thumbnail:hover {
+  border-color: blue; /* Màu viền khi rê chuột qua */
+}
+
+.thumbnail.active {
+  border: 2px solid blue; /* Màu viền khi hiển thị */
+}
