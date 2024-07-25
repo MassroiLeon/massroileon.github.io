@@ -426,8 +426,13 @@ const data = [
     id: "0066",
     userPro: true,
     displayName: "Jansen Su",
+<<<<<<< HEAD
     donated: "4$/24$",
     dueDate: "Aug 8, 2024 00:00:00",
+=======
+    donated: "2$/24$",
+    dueDate: "Jul 27, 2024 00:00:00",
+>>>>>>> b6f94e2afe20bcdbd62694f63fa65648a36ab19c
   },
   {
     id: "0067",
