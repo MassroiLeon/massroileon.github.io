@@ -424,9 +424,9 @@ const data = [
   },
   {
     id: "0066",
-    userPro: false,
+    userPro: true,
     displayName: "Jansen Su",
-    donated: "2$/24$",
+    donated: "4$/24$",
     dueDate: "Aug 8, 2024 00:00:00",
   },
   {
