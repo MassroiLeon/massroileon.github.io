@@ -331,6 +331,7 @@ const data = [
   }*/,
   {
     id: "0052",
+    userPro: true,
     displayName: "HelloKeqing Hà",
     donated: "130K/540K",
     dueDate: "Aug 19, 2024 00:00:00",
