@@ -106,8 +106,8 @@ const data = [
     id: "0016",
     userPro: true,
     displayName: "Rimuru Izanobi",
-    donated: "171K/540K",
-    dueDate: "Jul 29, 2024 00:00:00",
+    donated: "240K/540K",
+    dueDate: "Nov 5, 2024 00:00:00",
   },
   {
     id: "0017",
@@ -373,8 +373,8 @@ const data = [
     id: "0058",
     userPro: true,
     displayName: "Tùng Tôm",
-    donated: "135K/540K",
-    dueDate: "Aug 5, 2024 00:00:00",
+    donated: "185K/540K",
+    dueDate: "Oct 9, 2024 00:00:00",
   },
   {
     id: "0059",
@@ -500,7 +500,7 @@ const data = [
     dueDate: "Aug 21, 2024 00:00:00",
   },
   {
-    id: "0076",
+    id: "0077",
     userPro: false,
     displayName: "Chong Hong Shen",
     donated: "2$/24$",
