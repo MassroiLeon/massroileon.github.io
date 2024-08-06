@@ -23,8 +23,8 @@ const data = [
     id: "0003",
     userPro: true,
     displayName: "Nguyen Truong",
-    donated: "225K/540K",
-    dueDate: "Aug 10, 2024 00:00:00",
+    donated: "275K/540K",
+    dueDate: "Oct 14, 2024 00:00:00",
   }/*,
   {
     id: "0004",
@@ -461,8 +461,8 @@ const data = [
     id: "0071",
     userPro: true,
     displayName: "Hikari",
-    donated: "90K/540K",
-    dueDate: "Aug 5, 2024 00:00:00",
+    donated: "140K/540K",
+    dueDate: "Oct 8, 2024 00:00:00",
   },
   {
     id: "0072",
@@ -515,13 +515,6 @@ const data = [
   },
   {
     id: "0079",
-    userPro: false,
-    displayName: "Nacho",
-    donated: "2$/24$",
-    dueDate: "Sep 2, 2024 00:00:00",
-  },
-  {
-    id: "0080",
     userPro: false,
     displayName: "Ilith",
     donated: "89K/540K",
