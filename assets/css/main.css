@@ -18,8 +18,8 @@
 }
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
-:root { 
-  --background-color: #ffffff; /* Background color for the entire website, including individual sections */
+:root {
+  --background-color: #323232; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #45505b; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #0563bb; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
@@ -40,7 +40,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #f9f9f9;
+  --background-color: #000000;
   --surface-color: #ffffff;
 }
 
@@ -83,7 +83,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--heading-color);
+  color: #ffffff;
   font-family: var(--heading-font);
 }
 
@@ -459,7 +459,7 @@ h6 {
 --------------------------------------------------------------*/
 section,
 .section {
-  color: var(--default-color);
+  color: #ffffff;
   background-color: var(--background-color);
   padding: 60px 0;
   overflow: clip;
@@ -537,7 +537,7 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 30%);
+  background:  color-mix(in srgb, #000000, transparent 30%);
   position: absolute;
   inset: 0;
   z-index: 2;
@@ -571,7 +571,7 @@ section,
 .hero .social-links a {
   font-size: 20px;
   display: inline-block;
-  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  color:  color-mix(in srgb, #ffffff, transparent 30%);
   line-height: 1;
   margin-right: 20px;
   transition: 0.3s;
