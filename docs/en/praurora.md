@@ -1,5 +1,5 @@
 ---
-title: PRAurora: Reboot+
+title: "PRAurora: Reboot+"
 layout: doc
 pageClass: aurora
 ---
