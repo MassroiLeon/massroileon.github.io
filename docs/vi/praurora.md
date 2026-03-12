@@ -27,9 +27,7 @@ Giá được tính như sau
 
 ## Cách mua:
 
-- Sử dụng /buy
-
-- Khi mua đủ 2 năm sẽ được nâng cấp thành LifeTime
+- Sử dụng /menu button Buy
 
 ## Đăng ký: 
 

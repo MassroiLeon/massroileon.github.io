@@ -28,9 +28,7 @@ Price is calculated as follows
 
 ## How to buy:
 
-- Use /buy
-
-- When buying enough 2 years, it will be upgraded to LifeTime
+- Use /menu button Buy
 
 ## Register:
 
