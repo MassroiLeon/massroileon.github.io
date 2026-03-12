@@ -1,11 +1,6 @@
-/*
-.aurora .VPDoc {
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
-  background-color: #000 !important;
-}
-*/
+/* Liquid Grass iOS Inspired Theme */
+
+/* Hero Background Gradient */
 .aurora .vp-doc::before {
   content: "";
   position: absolute;
@@ -13,70 +8,266 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("/lowbgneon.webp") no-repeat bottom / cover;
+  background: linear-gradient(135deg, rgba(0,51,102,0.4) 0%, rgba(0,102,204,0.2) 50%, rgba(0,204,255,0.1) 100%);
   background-attachment: fixed;
-  filter: blur(15px);
-  opacity: 0.15;
-  z-index: -1;
-}
-
-/*
-.aurora .is-home {
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
-  background-color: #000 !important;
-}
-
-.aurora .is-home::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url("/lowbgneon.webp") no-repeat bottom / cover;
-  filter: blur(15px);
+  filter: blur(20px);
   opacity: 0.8;
   z-index: -1;
+  animation: gradientShift 8s ease infinite;
 }
-*/
 
+@keyframes gradientShift {
+  0%, 100% {
+    opacity: 0.6;
+    filter: blur(20px);
+  }
+  50% {
+    opacity: 0.8;
+    filter: blur(15px);
+  }
+}
+
+/* Remove links underline */
 a:link {
   text-decoration: none;
 }
 
+/* Content Body Styling */
 .aurora .content-body {
-  color: #ffffff80;
+  color: #ffffff;
+  animation: fadeInUp 0.8s ease-out;
 }
 
 .aurora .tagline {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  letter-spacing: 0.5px;
 }
 
+/* Hero Title Gradient */
 .aurora {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
-    120deg,
-    #ff00ff,
-    #00ffff
-  );
-  --vp-home-hero-image-background-image: linear-gradient(
-    45deg,
-    #00ffff 50%,
-    #ff00ff 50%
-  );
+  --vp-home-hero-name-background: linear-gradient(135deg, #00ffff 0%, #00ff88 100%);
+  
   h1 {
-    background: -webkit-linear-gradient(-288deg, #c6a0f6 20%, #8aadf4 30%);
+    background: linear-gradient(135deg, #00ffff 0%, #00ff88 50%, #00ccff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 800;
+    font-size: 3.5rem;
+    letter-spacing: -1px;
+    animation: fadeInDown 0.8s ease-out;
   }
+  
+  h2, h3, h4, h5, h6 {
+    color: #ffffff;
+  }
+  
   .vp-doc a {
     text-decoration: none;
+    color: #00ffff;
+    opacity: 0.9;
+    transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+    position: relative;
+  }
+  
+  .vp-doc a:hover {
+    color: #00ff88;
+    opacity: 1;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.4);
   }
 }
 
+/* Hero Image Styling */
 .VPHero img {
-  border-radius: 35px;
+  border-radius: 30px;
+  box-shadow: 0 20px 60px rgba(0, 204, 255, 0.3);
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.6s ease;
+  animation: fadeInScale 0.8s ease-out;
+}
+
+.VPHero img:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 30px 80px rgba(0, 255, 136, 0.4);
+}
+
+/* Button Styling */
+.VPButton {
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+}
+
+.VPButton.brand {
+  background: linear-gradient(135deg, #0099ff 0%, #00ccff 100%);
+  border: none;
+  box-shadow: 0 10px 30px rgba(0, 153, 255, 0.3);
+}
+
+.VPButton.brand:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 15px 50px rgba(0, 255, 136, 0.4);
+  background: linear-gradient(135deg, #00ccff 0%, #00ff88 100%);
+}
+
+.VPButton.alt {
+  border: 2px solid rgba(0, 204, 255, 0.5);
+  color: #00ffff;
+  background: transparent;
+  transition: all 0.3s ease;
+}
+
+.VPButton.alt:hover {
+  border-color: #00ffff;
+  background: rgba(0, 204, 255, 0.1);
+  box-shadow: 0 0 20px rgba(0, 204, 255, 0.3);
+}
+
+/* Features Section */
+.VPFeatures {
+  margin-top: 4rem;
+}
+
+.VPFeature {
+  border-radius: 20px;
+  background: rgba(0, 51, 102, 0.3);
+  border: 1px solid rgba(0, 204, 255, 0.2);
+  padding: 2rem;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  backdrop-filter: blur(10px);
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.VPFeature:hover {
+  transform: translateY(-8px);
+  border-color: rgba(0, 204, 255, 0.5);
+  background: rgba(0, 102, 204, 0.4);
+  box-shadow: 0 20px 40px rgba(0, 204, 255, 0.2);
+}
+
+.VPFeature .VPFeatureIcon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(0, 204, 255, 0.2), rgba(0, 255, 136, 0.2));
+  border-radius: 15px;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.VPFeature:hover .VPFeatureIcon {
+  transform: scale(1.1);
+}
+
+.VPFeature .title {
+  color: #00ffff;
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.VPFeature .details {
+  color: rgba(255, 255, 255, 0.7);
+  line-height: 1.6;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Sidebar & Navigation Styling */
+.VPSidebar {
+  border-right: 1px solid rgba(0, 204, 255, 0.1);
+  background: rgba(20, 30, 50, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+.VPSidebarItem.open > .button,
+.VPSidebarItem.level-0.open > .button {
+  color: #00ffff;
+}
+
+.VPSidebarItem a:hover {
+  color: #00ffff;
+  transition: all 0.3s ease;
+}
+
+/* Navbar Styling */
+.VPNavBar {
+  border-bottom: 1px solid rgba(0, 204, 255, 0.1);
+  background: rgba(20, 30, 50, 0.8);
+  backdrop-filter: blur(10px);
+}
+
+/* Code Block Styling */
+.vp-doc .vp-code-block {
+  background: rgba(0, 51, 102, 0.3);
+  border: 1px solid rgba(0, 204, 255, 0.2);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.vp-doc code {
+  background: rgba(0, 102, 204, 0.2);
+  color: #00ffff;
+  padding: 0.3rem 0.6rem;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+/* Smooth Transition for all elements */
+* {
+  transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+
+/* Loading animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(0, 204, 255, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 204, 255, 0.6);
+  }
+}
+
+.vp-doc strong {
+  color: #00ffff;
+  font-weight: 700;
 }
