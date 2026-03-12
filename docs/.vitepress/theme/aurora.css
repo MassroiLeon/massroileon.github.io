@@ -1,233 +1,82 @@
-/* Liquid Grass iOS Inspired Theme - Fixed & Optimized */
-
-body {
-  background: #000 !important;
-}
-
-/* Navigation */
-.VPNavBar {
-  border-bottom: 1px solid rgba(0, 204, 255, 0.1);
-  background: rgba(0, 20, 40, 0.95) !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Sidebar */
-.VPSidebar {
-  border-right: 1px solid rgba(0, 204, 255, 0.1);
-  background: rgba(0, 20, 40, 0.95) !important;
-}
-
-.VPSidebarItem .button {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.VPSidebarItem .button:hover,
-.VPSidebarItem.open > .button {
-  color: #00ffff;
-}
-
-/* Hero Container */
-.VPHero {
-  padding: 4rem 2rem !important;
+/*
+.aurora .VPDoc {
   position: relative;
-  margin: 0 !important;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #000 !important;
+}
+*/
+.aurora .vp-doc::before {
+  content: "";
+  position: absolute;
+  top: 64px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("/lowbgneon.webp") no-repeat bottom / cover;
+  background-attachment: fixed;
+  filter: blur(15px);
+  opacity: 0.15;
+  z-index: -1;
 }
 
-.VPHero .container {
-  max-width: 1200px !important;
+/*
+.aurora .is-home {
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  background-color: #000 !important;
 }
 
-.VPHero .name {
-  font-size: 3.5rem;
-  font-weight: 800;
-  letter-spacing: -1px;
-  background: linear-gradient(135deg, #00ffff 0%, #00ff88 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 1.2;
+.aurora .is-home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("/lowbgneon.webp") no-repeat bottom / cover;
+  filter: blur(15px);
+  opacity: 0.8;
+  z-index: -1;
 }
+*/
 
-.VPHero .text {
-  font-size: 1.3rem;
-  color: rgba(255, 255, 255, 0.8);
-  font-weight: 500;
-}
-
-.VPHero .tagline {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-/* Hero Image - FIXED */
-.VPHero .image {
-  flex-shrink: 0;
-}
-
-.VPHero .image img {
-  width: 100%;
-  height: auto;
-  max-width: 320px;
-  border-radius: 25px;
-  box-shadow: 0 15px 40px rgba(0, 204, 255, 0.25);
-  background-attachment: fixed !important;
-  background-position: center !important;
-}
-
-.VPHero .image img:hover {
-  box-shadow: 0 20px 50px rgba(0, 255, 136, 0.3);
-}
-
-/* Buttons */
-.VPButton {
-  border-radius: 18px;
-  font-weight: 600;
-  font-size: 0.9rem;
-  letter-spacing: 0.5px;
-  border: none;
-  cursor: pointer;
-  padding: 0.7rem 1.8rem;
-}
-
-.VPButton.brand {
-  background: linear-gradient(135deg, #0099ff, #00ccff) !important;
-  color: white !important;
-  box-shadow: 0 8px 25px rgba(0, 153, 255, 0.3);
-}
-
-.VPButton.brand:hover {
-  background: linear-gradient(135deg, #00ccff, #00ff88) !important;
-  box-shadow: 0 12px 35px rgba(0, 255, 136, 0.35);
-  transform: translateY(-2px);
-}
-
-.VPButton.alt {
-  border: 2px solid rgba(0, 204, 255, 0.5) !important;
-  color: #00ffff !important;
-  background: transparent !important;
-}
-
-.VPButton.alt:hover {
-  border-color: #00ffff !important;
-  background: rgba(0, 204, 255, 0.08) !important;
-  box-shadow: 0 0 15px rgba(0, 204, 255, 0.25);
-}
-
-/* Features */
-.VPFeatures {
-  margin: 3rem 0 !important;
-  padding: 2rem !important;
-}
-
-.VPFeature {
-  border-radius: 20px;
-  background: rgba(0, 51, 102, 0.2);
-  border: 1px solid rgba(0, 204, 255, 0.15);
-  padding: 2rem;
-  transition: all 0.3s ease;
-}
-
-.VPFeature:hover {
-  transform: translateY(-4px);
-  border-color: rgba(0, 204, 255, 0.3);
-  background: rgba(0, 102, 204, 0.3);
-  box-shadow: 0 15px 35px rgba(0, 204, 255, 0.15);
-}
-
-.VPFeature .icon {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-.VPFeature .title {
-  color: #00ffff;
-  font-weight: 700;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
-}
-
-.VPFeature .details {
-  color: rgba(255, 255, 255, 0.65);
-  line-height: 1.6;
-  font-size: 0.95rem;
-  margin: 0;
-}
-
-/* Doc Content */
-.vp-doc {
-  color: rgba(255, 255, 255, 0.85);
-}
-
-.vp-doc a {
-  color: #00ffff;
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-
-.vp-doc a:hover {
-  color: #00ff88;
-  text-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
-}
-
-.vp-doc h1, 
-.vp-doc h2, 
-.vp-doc h3, 
-.vp-doc h4, 
-.vp-doc h5, 
-.vp-doc h6 {
-  color: #ffffff;
-}
-
-.vp-doc strong {
-  color: #00ffff;
-  font-weight: 700;
-}
-
-.vp-doc em {
-  color: #00ffff;
-  font-style: italic;
-}
-
-/* Code */
-.vp-doc code {
-  background: rgba(0, 102, 204, 0.2);
-  color: #00ffff;
-  padding: 0.2rem 0.5rem;
-  border-radius: 5px;
-  font-weight: 500;
-  font-size: 0.9em;
-}
-
-.vp-doc pre {
-  background: rgba(0, 51, 102, 0.4) !important;
-  border: 1px solid rgba(0, 204, 255, 0.1) !important;
-  border-radius: 12px;
-}
-
-/* Blockquote */
-.vp-doc blockquote {
-  border-left: 4px solid #00ffff;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-/* HR */
-.vp-doc hr {
-  border-color: rgba(0, 204, 255, 0.1);
-}
-
-/* Footer */
-.VPFooter {
-  border-top: 1px solid rgba(0, 204, 255, 0.1);
-  background: rgba(0, 20, 40, 0.95) !important;
-}
-
-.VPFooter a {
-  color: #00ffff;
+a:link {
   text-decoration: none;
 }
 
-.VPFooter a:hover {
-  color: #00ff88;
+.aurora .content-body {
+  color: #ffffff80;
+}
+
+.aurora .tagline {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.aurora {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(
+    120deg,
+    #ff00ff,
+    #00ffff
+  );
+  --vp-home-hero-image-background-image: linear-gradient(
+    45deg,
+    #00ffff 50%,
+    #ff00ff 50%
+  );
+  h1 {
+    background: -webkit-linear-gradient(-288deg, #c6a0f6 20%, #8aadf4 30%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .vp-doc a {
+    text-decoration: none;
+  }
+}
+
+.VPHero img {
+  border-radius: 35px;
 }
