@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/@lunariajs/core/config.schema.json",
+  "repository": {
+    "name": "MassroiLeon/massroileon.github.io",
+    "rootDir": "."
+  },
+  "files": [
+    {
+      "location": "docs/**/*.md",
+      "pattern": "docs/@lang/@path",
+      "type": "universal"
+    }
+  ],
+  "defaultLocale": {
+    "label": "English",
+    "lang": "en"
+  },
+  "locales": [
+    {
+      "label": "Tiếng Việt",
+      "lang": "vi"
+    }
+  ],
+  "outDir": "docs/.vitepress/dist/_translations",
+  "ignoreKeywords": ["lunaria-ignore"]
+}
