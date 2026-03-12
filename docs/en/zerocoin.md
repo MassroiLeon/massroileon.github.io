@@ -35,7 +35,7 @@ When you have finished donating, use /payment
 
 ## Instructions:
 
-- When using /payment
+- When using /menu button Payment
 + Fill in ORDER according to Order No.
 + Fill in Ganknow Name according to your Ganknow Name
 + Fill in Amount according to the amount you donated according to ($)

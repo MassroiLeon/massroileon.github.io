@@ -10,7 +10,7 @@ pageClass: aurora
 
 As a supplement to other Projects, SubPass provides advanced features for other Projects.
 
-Supports: Cytus, Lanota, Ravon, MuseDash, Dynamix, Phigros
+Supports: Cytus II, Lanota, Ravon, MuseDash, Dynamix, Phigros
 Sub-parts such as: Check A - B30 - B50 for ZP.Aurora and ZeroX Standby (use /photoscore)
 Custom Partner (ZP.Aurora): Will be automatically opened when SubPass is available
 
@@ -22,9 +22,7 @@ Prices are calculated as follows
 
 ## How to buy:
 
-- Use /buy
-
-- When buying enough 2 years, it will be upgraded to LifeTime
+- Use /menu button Buy
 
 ::: tip Alternatives
 Telegram Links for support (And also the downloads):

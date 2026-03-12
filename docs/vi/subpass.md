@@ -10,7 +10,7 @@ pageClass: aurora
 
 Là phần bổ sung cho các Project khác, SubPass cung cấp các tính năng nâng cao cho các Project khác.
 
-Hỗ trợ: Cytus, Lanota, Ravon, MuseDash, Dynamix, Phigros
+Hỗ trợ: Cytus II, Lanota, Ravon, MuseDash, Dynamix, Phigros
 Các phần phụ như: Check A - B30 - B50 cho ZP.Aurora và ZeroX Standby ( sử dụng /photoscore )
 Custom Partner ( ZP.Aurora ): Sẽ tự động mở khi có SubPass
 
@@ -22,9 +22,7 @@ Giá được tính như sau
 
 ## Cách mua:
 
-- Sử dụng /buy
-
-- Khi mua đủ 2 năm sẽ được nâng cấp thành LifeTime
+- Sử dụng /menu button Buy
 
 ::: tip Alternatives
 Telegram Links for support (And also the downloads):

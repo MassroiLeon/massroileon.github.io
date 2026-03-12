@@ -35,7 +35,7 @@ Khi đã donate xong hãy sử dụng /payment
 
 ## Hướng dẫn:
 
-- Khi sử dụng /payment
+- Khi sử dụng /menu nút Payment
 + Điền ORDER theo Order No.
 + Điền Name Ganknow theo Tên Ganknow của bạn
 + Điền Amount theo số tiền bạn đã donate theo ($)

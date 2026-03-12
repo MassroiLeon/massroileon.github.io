@@ -26,15 +26,6 @@ const members = [
       { icon: 'youtube', link: 'https://youtube.com/@moddedarcaea?si=UYubpf4G1efeOLNV' }
     ]
   },
-  {
-    avatar: 'https://avatars.githubusercontent.com/u/84841152?v=4',
-    name: 'Veha',
-    title: 'Vitepress',
-    links: [
-      { icon: 'github', link: 'https://github.com/Veha0001' },
-      { icon: 'kofi', link: 'https://ko-fi.com/Veha0001' },
-    ]
-  },
 ]
 const mention = [
   {
