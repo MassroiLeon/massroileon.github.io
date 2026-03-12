@@ -1,39 +1,25 @@
-/* Liquid Grass iOS Inspired Theme - Optimized */
+/* Liquid Grass iOS Inspired Theme - Fixed & Optimized */
 
-/* Hero Background */
-.aurora .vp-doc {
-  position: relative;
-}
-
-.aurora .vp-doc::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(0,51,102,0.3) 0%, rgba(0,102,204,0.15) 50%, rgba(0,204,255,0.05) 100%);
-  pointer-events: none;
-  z-index: -1;
+body {
+  background: #000 !important;
 }
 
 /* Navigation */
 .VPNavBar {
   border-bottom: 1px solid rgba(0, 204, 255, 0.1);
   background: rgba(0, 20, 40, 0.95) !important;
-  backdrop-filter: blur(8px);
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* Sidebar */
 .VPSidebar {
   border-right: 1px solid rgba(0, 204, 255, 0.1);
   background: rgba(0, 20, 40, 0.95) !important;
-  backdrop-filter: blur(8px);
 }
 
 .VPSidebarItem .button {
   color: rgba(255, 255, 255, 0.7);
-  transition: color 0.2s ease;
 }
 
 .VPSidebarItem .button:hover,
@@ -41,53 +27,56 @@
   color: #00ffff;
 }
 
-/* Links */
-a {
-  text-decoration: none;
-}
-
-.vp-doc a {
-  color: #00ffff;
-  transition: color 0.2s ease, text-shadow 0.2s ease;
-}
-
-.vp-doc a:hover {
-  color: #00ff88;
-  text-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
-}
-
-/* Hero Section */
+/* Hero Container */
 .VPHero {
-  padding: 3rem 2rem;
+  padding: 4rem 2rem !important;
+  position: relative;
+  margin: 0 !important;
+}
+
+.VPHero .container {
+  max-width: 1200px !important;
 }
 
 .VPHero .name {
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -1px;
   background: linear-gradient(135deg, #00ffff 0%, #00ff88 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-weight: 800;
-  letter-spacing: -1px;
+  line-height: 1.2;
 }
 
 .VPHero .text {
-  color: rgba(255, 255, 255, 0.8);
   font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
 }
 
 .VPHero .tagline {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 300;
+  font-size: 1rem;
 }
 
-.VPHero img {
+/* Hero Image - FIXED */
+.VPHero .image {
+  flex-shrink: 0;
+}
+
+.VPHero .image img {
+  width: 100%;
+  height: auto;
+  max-width: 320px;
   border-radius: 25px;
   box-shadow: 0 15px 40px rgba(0, 204, 255, 0.25);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-attachment: fixed !important;
+  background-position: center !important;
 }
 
-.VPHero img:hover {
-  transform: translateY(-5px);
+.VPHero .image img:hover {
   box-shadow: 0 20px 50px rgba(0, 255, 136, 0.3);
 }
 
@@ -95,30 +84,32 @@ a {
 .VPButton {
   border-radius: 18px;
   font-weight: 600;
-  transition: all 0.2s ease;
   font-size: 0.9rem;
   letter-spacing: 0.5px;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1.8rem;
 }
 
-:is(.VPButton.brand, .vp-button.brand) {
-  background: linear-gradient(135deg, #0099ff 0%, #00ccff 100%) !important;
-  border: none !important;
+.VPButton.brand {
+  background: linear-gradient(135deg, #0099ff, #00ccff) !important;
+  color: white !important;
   box-shadow: 0 8px 25px rgba(0, 153, 255, 0.3);
 }
 
-:is(.VPButton.brand, .vp-button.brand):hover {
-  transform: translateY(-2px);
+.VPButton.brand:hover {
+  background: linear-gradient(135deg, #00ccff, #00ff88) !important;
   box-shadow: 0 12px 35px rgba(0, 255, 136, 0.35);
-  background: linear-gradient(135deg, #00ccff 0%, #00ff88 100%) !important;
+  transform: translateY(-2px);
 }
 
-:is(.VPButton.alt, .vp-button.alt) {
+.VPButton.alt {
   border: 2px solid rgba(0, 204, 255, 0.5) !important;
   color: #00ffff !important;
   background: transparent !important;
 }
 
-:is(.VPButton.alt, .vp-button.alt):hover {
+.VPButton.alt:hover {
   border-color: #00ffff !important;
   background: rgba(0, 204, 255, 0.08) !important;
   box-shadow: 0 0 15px rgba(0, 204, 255, 0.25);
@@ -126,7 +117,8 @@ a {
 
 /* Features */
 .VPFeatures {
-  margin-top: 3rem;
+  margin: 3rem 0 !important;
+  padding: 2rem !important;
 }
 
 .VPFeature {
@@ -147,11 +139,6 @@ a {
 .VPFeature .icon {
   font-size: 2rem;
   margin-bottom: 1rem;
-  transition: transform 0.3s ease;
-}
-
-.VPFeature:hover .icon {
-  transform: scale(1.05);
 }
 
 .VPFeature .title {
@@ -165,9 +152,45 @@ a {
   color: rgba(255, 255, 255, 0.65);
   line-height: 1.6;
   font-size: 0.95rem;
+  margin: 0;
 }
 
-/* Code Blocks */
+/* Doc Content */
+.vp-doc {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.vp-doc a {
+  color: #00ffff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.vp-doc a:hover {
+  color: #00ff88;
+  text-shadow: 0 0 8px rgba(0, 255, 136, 0.3);
+}
+
+.vp-doc h1, 
+.vp-doc h2, 
+.vp-doc h3, 
+.vp-doc h4, 
+.vp-doc h5, 
+.vp-doc h6 {
+  color: #ffffff;
+}
+
+.vp-doc strong {
+  color: #00ffff;
+  font-weight: 700;
+}
+
+.vp-doc em {
+  color: #00ffff;
+  font-style: italic;
+}
+
+/* Code */
 .vp-doc code {
   background: rgba(0, 102, 204, 0.2);
   color: #00ffff;
@@ -179,30 +202,19 @@ a {
 
 .vp-doc pre {
   background: rgba(0, 51, 102, 0.4) !important;
-  border: 1px solid rgba(0, 204, 255, 0.1);
+  border: 1px solid rgba(0, 204, 255, 0.1) !important;
   border-radius: 12px;
 }
 
-/* Headings */
-.vp-doc h1, 
-.vp-doc h2, 
-.vp-doc h3, 
-.vp-doc h4, 
-.vp-doc h5, 
-.vp-doc h6 {
-  color: #ffffff;
-  transition: color 0.2s ease;
+/* Blockquote */
+.vp-doc blockquote {
+  border-left: 4px solid #00ffff;
+  color: rgba(255, 255, 255, 0.7);
 }
 
-.vp-doc strong {
-  color: #00ffff;
-  font-weight: 700;
-}
-
-/* Emphasis */
-.vp-doc em {
-  color: #00ffff;
-  font-style: italic;
+/* HR */
+.vp-doc hr {
+  border-color: rgba(0, 204, 255, 0.1);
 }
 
 /* Footer */
@@ -213,25 +225,9 @@ a {
 
 .VPFooter a {
   color: #00ffff;
+  text-decoration: none;
 }
 
 .VPFooter a:hover {
   color: #00ff88;
-}
-
-/* Content */
-.vp-doc {
-  color: rgba(255, 255, 255, 0.85);
-}
-
-/* Blockquote */
-.vp-doc blockquote {
-  border-left: 4px solid #00ffff;
-  padding-left: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-}
-
-/* HR */
-.vp-doc hr {
-  border-color: rgba(0, 204, 255, 0.1);
 }
