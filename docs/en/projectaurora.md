@@ -1,12 +1,12 @@
 ---
-title: Project Aurora
+title: Project ZP.Aurora+
 layout: doc
 pageClass: aurora
 ---
 
 # Project ZP.Aurora Server
 
-## Ver 6070.rX Latest
+## Ver 6131.rX Latest
 
 Use the latest version of Arcaea.
 Supports Android and iOS
@@ -16,18 +16,15 @@ Can play more than 1xxx+ Fanmade songs
 
 Price is calculated as follows
 
-- 1 month:
-+ Android: 12500 Zero Coin
-+ iOS: 13500 Zero Coin
 - 3 months:
-+ Android: 31500 Zero Coin
-+ iOS: 32500 Zero Coin
++ Android: 15500 Zero Coin
++ iOS: 16000 Zero Coin
 - 6 months:
-+ Android: 55000 Zero Coin
-+ iOS: 58500 Zero Coin
++ Android: 30400 Zero Coin
++ iOS: 31200 Zero Coin
 - 1 year:
-+ Android: 95000 Zero Coin
-+ iOS: 100000 Zero Coin
++ Android: 50000 Zero Coin
++ iOS: 56000 Zero Coin
 
 ## How to buy:
 

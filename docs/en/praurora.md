@@ -1,12 +1,12 @@
 ---
-title: Project Aurora
+title: PRAurora: Reboot+
 layout: doc
 pageClass: aurora
 ---
 
-# Paradigm Reboot
+# PRAurora: Reboot+
 
-## Ver 3.11.0 Latest
+## Ver 4.4.0 Latest
 
 Use the latest version of Paradigm Reboot.
 Support Android and iOS
@@ -15,18 +15,15 @@ Cross Decode supports and can be played together.
 
 Prices are calculated as follows
 
-- 1 month:
-+ Android: 5000 Zero Coin
-+ iOS: 6000 Zero Coin
 - 3 months:
-+ Android: 12500 Zero Coin
-+ iOS: 14000 Zero Coin
++ Android: 11000 Zero Coin
++ iOS: 11400 Zero Coin
 - 6 months:
-+ Android: 24000 Zero Coin
-+ iOS: 26500 Zero Coin
++ Android: 19200 Zero Coin
++ iOS: 20800 Zero Coin
 - 1 year:
-+ Android: 45000 Zero Coin
-+ iOS: 51000 Zero Coin
++ Android: 32000 Zero Coin
++ iOS: 37000 Zero Coin
 
 ## How to buy:
 

@@ -16,9 +16,9 @@ Custom Partner (ZP.Aurora): Will be automatically opened when SubPass is availab
 
 Prices are calculated as follows
 
-- 3 months: 18000 Zero Coins
-- 6 months: 34500 Zero Coins
-- 1 year: 65000 Zero Coins
+- 3 months: 9800 Zero Coins
+- 6 months: 18400 Zero Coins
+- 1 year: 32000 Zero Coins
 
 ## How to buy:
 

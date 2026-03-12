@@ -21,13 +21,13 @@ features:
   - title: Discord
     icon: 🌊
     details: Join Discord Server
-    link: https://discord.gg/FpeKNnd3nc
+    link: https://discord.gg/KrbSYA5azW
   - title: Telegram
     icon: 📬
     details: Contact Me Telegram
-    link: https://t.me/Mikuchan_none
+    link: https://t.me/Mikuchan_3901
   - title: Donate
     icon: ☕
     details: Ganknow Donation
-    link: https://ganknow.com/massroileon?tab=membership
+    link: https://ganknow.com/massroileon/tip
 ---

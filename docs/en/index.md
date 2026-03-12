@@ -21,7 +21,7 @@ features:
   - title: Discord
     icon: 🌊
     details: Join Discord Server
-    link: https://discord.gg/FpeKNnd3nc
+    link: https://discord.gg/KrbSYA5azW
   - title: Telegram
     icon: 📬
     details: Contact Me Telegram

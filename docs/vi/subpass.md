@@ -16,9 +16,9 @@ Custom Partner ( ZP.Aurora ): Sẽ tự động mở khi có SubPass
 
 Giá được tính như sau
 
-- 3 tháng: 18000 Zero Coin
-- 6 tháng: 34500 Zero Coin
-- 1 năm: 65000 Zero Coin
+- 3 tháng: 9800 Zero Coin
+- 6 tháng: 18400 Zero Coin
+- 1 năm: 32000 Zero Coin
 
 ## Cách mua:
 

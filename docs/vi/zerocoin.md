@@ -11,11 +11,27 @@ pageClass: aurora
 Sử dụng donate qua Ganknow
 Khi đã donate xong hãy sử dụng /payment
 
-- 2$: 15000 Zero Coin
-- 5$: 38750 Zero Coin
-- 10$: 80000 Zero Coin
-- 20$: 170000 Zero Coin
-- 25$: 218750 Zero Coin
+- 2$: 16,430 Zero Coin
+- 5$: 42,800 Zero Coin
+- 10$: 89,100 Zero Coin
+- 20$: 192,500 Zero Coin
+- 25$: 240,625 Zero Coin
+
+## VnBank
+
+- 50K: 15,345 Zero Coin
+- 125K: 38,362 Zero Coin
+- 250K: 80,000 Zero Coin
+- 500K: 178,500 Zero Coin
+- 620K: 221,340 Zero Coin
+
+## CardViettel
+
+- 20K: 5,187 Zero Coin
+- 50K: 14,260 Zero Coin
+- 100K: 28,520 Zero Coin
+- 200K: 59,520 Zero Coin
+- 500K: 166,250 Zero Coin
 
 ## Hướng dẫn:
 
