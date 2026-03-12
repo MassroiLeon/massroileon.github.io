@@ -84,8 +84,8 @@ export default defineConfig({
 
     sidebar: [
       { text: "Zero Coin", link: "/zerocoin" },
-      { text: "Project Aurora", link: "/projectaurora" },
-      { text: "Paradigm Reboot", link: "/paradigmrb" },
+      { text: "Project ZP.Aurora+", link: "/projectaurora" },
+      { text: "PRAurora: Reboot+", link: "/paradigmrb" },
       { text: "Sub Pass", link: "/subpass" },
       /*
       {
