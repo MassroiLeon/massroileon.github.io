@@ -14,12 +14,6 @@ Supports: Cytus II, Lanota, Ravon, MuseDash, Dynamix, Phigros
 Sub-parts such as: Check A - B30 - B50 for ZP.Aurora and ZeroX Standby (use /photoscore)
 Custom Partner (ZP.Aurora): Will be automatically opened when SubPass is available
 
-Prices are calculated as follows
-
-- 3 months: 9800 Zero Coins
-- 6 months: 18400 Zero Coins
-- 1 year: 32000 Zero Coins
-
 ## How to buy:
 
 - Use /menu button Buy

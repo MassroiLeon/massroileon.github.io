@@ -14,18 +14,6 @@ Hỗ trợ Android và iOS
 Link Play hỗ trợ và có thể chơi chung liên kết cả ZP.Aurora và ZeroX Standby
 Có thể chơi hơn 1xxx+ Fanmade songs
 
-Giá được tính như sau
-
-- 3 tháng:
-+ Android: 15500 Zero Coin
-+ iOS: 16000 Zero Coin
-- 6 tháng:
-+ Android: 30400 Zero Coin
-+ iOS: 31200 Zero Coin
-- 1 năm:
-+ Android: 50000 Zero Coin
-+ iOS: 56000 Zero Coin
-
 ## Cách mua:
 
 - Sử dụng /menu button Buy

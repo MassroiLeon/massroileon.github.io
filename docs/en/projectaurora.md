@@ -14,18 +14,6 @@ Supports Android and iOS
 Link Play supports and can play both ZP.Aurora and ZeroX Standby links
 Can play more than 1xxx+ Fanmade songs
 
-Price is calculated as follows
-
-- 3 months:
-+ Android: 15500 Zero Coin
-+ iOS: 16000 Zero Coin
-- 6 months:
-+ Android: 30400 Zero Coin
-+ iOS: 31200 Zero Coin
-- 1 year:
-+ Android: 50000 Zero Coin
-+ iOS: 56000 Zero Coin
-
 ## How to buy:
 
 - Use /menu button Buy

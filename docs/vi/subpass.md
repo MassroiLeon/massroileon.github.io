@@ -14,12 +14,6 @@ Hỗ trợ: Cytus II, Lanota, Ravon, MuseDash, Dynamix, Phigros
 Các phần phụ như: Check A - B30 - B50 cho ZP.Aurora và ZeroX Standby ( sử dụng /photoscore )
 Custom Partner ( ZP.Aurora ): Sẽ tự động mở khi có SubPass
 
-Giá được tính như sau
-
-- 3 tháng: 9800 Zero Coin
-- 6 tháng: 18400 Zero Coin
-- 1 năm: 32000 Zero Coin
-
 ## Cách mua:
 
 - Sử dụng /menu button Buy

@@ -13,18 +13,6 @@ Support Android and iOS
 
 Cross Decode supports and can be played together.
 
-Prices are calculated as follows
-
-- 3 months:
-+ Android: 11000 Zero Coin
-+ iOS: 11400 Zero Coin
-- 6 months:
-+ Android: 19200 Zero Coin
-+ iOS: 20800 Zero Coin
-- 1 year:
-+ Android: 32000 Zero Coin
-+ iOS: 37000 Zero Coin
-
 ## How to buy:
 
 - Use /menu button Buy
